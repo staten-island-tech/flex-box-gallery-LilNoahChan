@@ -26,10 +26,9 @@ h1 {
     background-color: white;
     align-content: center;
     border: 6px solid black;
-    border-radius: 35%;
     width: 55%;
     height: auto;
-    margin: auto;
+    margin: 30px auto;
     position: relative;
 }
 
@@ -41,16 +40,6 @@ h1 {
     margin: 2%;
 }
 
-img {
-    width: auto;
-    height: auto;
-    margin: 3%;
-}
-
-h2 {
-    font-style: bold;
-    font-size: 2em;
-}
 
 .caption {
     font-size: 23px;
@@ -66,4 +55,15 @@ h2 {
     margin: 2%;
     align-content: flex-end;
     box-shadow: 2em 2em 4em;
+}
+
+img {
+    width: auto;
+    height: auto;
+    margin: 3%;
+}
+
+h2 {
+    font-style: bold;
+    font-size: 2em;
 }

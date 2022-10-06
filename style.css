@@ -55,15 +55,66 @@ h1 {
     margin: 2%;
     align-content: flex-end;
     box-shadow: 2em 2em 4em;
+    transition: 0.4s;
+}
+
+.child:hover {
+    transform: scale(1.1);
 }
 
 
-
-img {
+img{
     width: auto;
     height: 40rem;
     margin: 7%;
     display: flexbox;
+}
+
+.image:hover {
+    animation: move 4s infinite;
+    position: relative;
+}
+
+@keyframes move {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.05);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.05)
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.image-1 {
+    width: 300px;
+    transition: 4s;
+    animation: move 4s linear infinite;
+}
+
+@keyframes move {
+    0% {}
+
+    25% {}
+
+    50% {}
+
+    75% {}
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 h2 {
@@ -73,10 +124,3 @@ h2 {
 
 
 
-.image-1{ 
-    transition: ease-out 0.3s;
-}
-
-.image-1:hover{
-flex-direction: 1 1 50%;
-}

@@ -60,9 +60,31 @@ h1 {
   .child {
       margin: 2rem;
   }
+  .image-2, .image {
+    width: 18rem;
+    height: 32rem;
+    margin: 10%;
+    display: flexbox;
+  }
 }
 
+/* ipad */
+@media screen and (max-width:768px)  {
+  .child {
+    margin: 2rem;
+    length: auto;
+}
+.img {
 
+}
+}
+
+/* laptop  */
+@media screen and (max-width:820px)  {
+  .child {
+    margin: 2rem;
+}
+}
 
 
 .child:hover {
